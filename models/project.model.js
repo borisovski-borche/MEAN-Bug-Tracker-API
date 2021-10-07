@@ -18,6 +18,7 @@ const projectSchema = new Schema(
     },
     developers: [{ type: Schema.Types.ObjectId, ref: "User" }],
     tickets: [{ type: Schema.Types.ObjectId, ref: "Ticket" }],
+    testingArr: [{ type: String }],
   },
   {
     timestamps: true,

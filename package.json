@@ -18,11 +18,15 @@
   },
   "homepage": "https://github.com/borisovski-borche/MEAN-Bug-Tracker-API#readme",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "helmet": "^4.6.0",
+    "jsonwebtoken": "^8.5.1",
     "mongodb": "^4.1.2",
-    "mongoose": "^6.0.7"
+    "mongoose": "^6.0.7",
+    "validator": "^13.6.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.13"
